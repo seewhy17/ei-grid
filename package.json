@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "vitest",
+    "test:unit": "vitest --environment jsdom",
+    "coverage": "vitest run --coverage",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@testing-library/vue": "^6.5.1",
+    "nuxt3": "latest"
+  }
+}
