@@ -170,12 +170,8 @@
     grid-gap: 1rem;
   }
 
-  @media (min-width: 600px) {
-   .grid { grid-template-columns: repeat(3, 1fr); }
-  }
-
   @media (min-width: 900px) {
-   .grid { grid-template-columns: repeat(2, 1fr); }
+   .grid { grid-template-columns: repeat(3, 1fr); }
   }
 
   .item {
